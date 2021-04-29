@@ -9,6 +9,12 @@
 
 class Heap():
     """
+    naive sort algorithm
+    时间复杂度：best:O(NlogN)  worst:O(NlogN) mean:O(NlogN)
+    空间复杂度：O(1)
+    属性：不稳定
+
+
     heap的初始化是一个从第一个非叶子节点直到根节点的自上而下的调整过程；
     heap的pop是一个只有根节点的自上而下的调整过程；
     heapSort是一个反复将堆顶元素pop的过程，继而使list有序

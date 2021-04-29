@@ -8,6 +8,12 @@
 
 
 class MergeSort:
+    """
+    naive sort algorithm
+    时间复杂度：best:O(NlogN)  worst:O(NlogN) mean:O(NlogN)
+    空间复杂度：O(N)
+    属性：稳定
+    """
 
     def __init__(self, nums):
         self.nums = nums
