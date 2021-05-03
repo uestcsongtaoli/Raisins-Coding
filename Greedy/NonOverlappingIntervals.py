@@ -37,7 +37,7 @@ class Solution():
         intervals = sorted(intervals, key=lambda x:x[1])
         count = 1
         end = intervals[0][1]
-        for interval in intervals: # 循环代表贪心 永远想要使得剩下可选择区间最大的
+        for interval in intervals: # 贪心在 永远想要使得剩下可选择区间最大的，但是只能选择符合下面条件的
             if interval[0] >= end: # 当下一个区间开始位置>=上一个区间结束位置，则为可以选择的区间
                 end = interval[1]
                 count += 1
