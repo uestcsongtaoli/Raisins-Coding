@@ -25,6 +25,11 @@ class Solution():
 
     def candy(self):
 
+        '''
+        需要考虑从左向右和从右向左两个维度，当两者同时考虑时会有所疏漏，需要分别考虑，两次贪心完成
+        Returns:
+
+        '''
         children = self.children
         # 先初始化每个小孩一块糖果
         nums = [1] * len(children)
