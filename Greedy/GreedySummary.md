@@ -10,6 +10,7 @@
     - [AssignCookies](./AssignCookies.py)
     - [CanPlaceFlowers](./CanPlaceFlowers.py)
     - [BestTimeToBuyAndSellStock2](./BestTimeToBuyAndSellStock2.py)
+    - [NonDecreasingArray](./NonDecreasingArray.py)
     
 2. 多维度优化问题
     这类问题一般有两个或更多的因素需要考虑，我们可以考虑对多个维度one by one地去解决 
